@@ -1,12 +1,19 @@
-#grill{
+
+#gril {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
+    aspect-ratio: 1;
+
 }
-.cell{
+
+.cell {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     width: calc(100%/10);
+}
+.cell-blu{
+    background-color: blue;
 }
