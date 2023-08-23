@@ -1,8 +1,12 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 #gril {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 70%;
     aspect-ratio: 1;
 
 }
@@ -12,7 +16,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    width: calc(100%/10);
+    width: calc(100% / 10);
 }
 .cell-blu{
     background-color: blue;
